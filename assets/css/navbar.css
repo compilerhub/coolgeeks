@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300);
+
+nav{
+	background: #fff;
+	
+
+}
+
+.logo{
+	margin-left: 45px;
+	margin-top: 0px;
+}
+
+.nav{
+	margin-right: 45px !important;
+	margin-top: 35px !important;
+}
+
+.navbar-toggle span{
+	background: #747474;
+}
+
+.navbar-text{
+color: #747474;
+font-family: 'Lato', sans-serif;
+text-align: justify;
+font-size: 18px;
+font-weight:300;
+margin-top: 30px !important;
+}
+
+a{
+	font-family: 'Lato', sans-serif;
+	color:#747474;
+}
+
+.navbar-nav li a:hover{
+	background: transparent;
+ 	color: #00ccff;
+}
+
+
+@media screen and (max-width: 768px){
+.navbar-brand{
+ margin-top: -18px ;
+}
+}
+
+@media screen and (max-width: 600px) {
+.navbar-brand{
+ margin-top: -23px ;
+}
+}
+
+@media screen and (max-width: 480px) {
+nav{
+	height: auto;
+}
+.logo{
+	margin-left: 3px;
+}
+
+.navbar-text{
+	font-size: 15px;
+}
+.navbar-brand{
+ margin-top: -28px ;
+}
+}
